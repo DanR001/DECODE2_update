@@ -1,22 +1,22 @@
-#=================================================
+=================================================
 
-#DECODE: Discrete statistical sEmi-empiriCal mODEl
+# DECODE: Discrete statistical sEmi-empiriCal mODEl
 
-#=================================================
+=================================================
 
 
-Version 2 of DECODE.
+## Version 2 of DECODE.
 
-Authors:
+## Authors:
 Hao Fu <h.fu@soton.ac.uk>
 Lumen Boco <lboco@sissa.it>
 Daniel Roberts <d.m.roberts@soton.ac.uk>
 Cressida Cleland <cleland@apc.in2p3.fr>
 
-The purpose of this fork:
+## The purpose of this fork:
   - Updating the BH recipe, the abundance matching to have sHAR-sSFR as an option, and a general tidy up.
 
-To Do List:
+## To Do List:
   - Finish testing the complete HAR function using the complete sample from SatGen
   - Fix the problem with sHAR - sSFR abundance matching
   - Finish the class to have standardised methods for analysis of the catalogues
