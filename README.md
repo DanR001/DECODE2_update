@@ -1,8 +1,8 @@
-=================================================
+#=================================================
 
-DECODE: Discrete statistical sEmi-empiriCal mODEl
+#DECODE: Discrete statistical sEmi-empiriCal mODEl
 
-=================================================
+#=================================================
 
 
 Version 2 of DECODE.
