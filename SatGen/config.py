@@ -46,7 +46,9 @@ Mres = None # [Msun] [DEFAULT]: mass resolution of merger tree
            # (Mres/M0 = psi_{res})
 psi_res = 10**-5 # Resolution limit of merger tree
 z0 = 0. # [DEFAULT]: Typically changed in TreeGen_Sub
-zmax = 5.
+''' Changed so we span the full z range of interest '''
+zmax = 5. # original
+zmax = 7.1 # changed to
 
 # Benson17 values
 #G0 = 0.6353
@@ -150,7 +152,10 @@ tlkbk_grid = co.tlkbk(z_grid,h,Om,OL)
 ztlkbk_interp = interp1d(tlkbk_grid, z_grid, kind='linear')
 
 #print('>>> Preparing output redshifts for merger trees ...')
+''' Changed to 1000 as we only want the first order subs and the creation of these massive arrays is very slow '''
 Nmax = 500000 # maximum number of branches per tree
+Nmax = 1000 # maximum number of branches per tree
+
 zsample = [z0]
 dtsample = []
 z = z0
