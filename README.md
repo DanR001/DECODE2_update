@@ -26,9 +26,9 @@ Cressida Cleland <cleland@apc.in2p3.fr>
   - Implement Sub Halo evolution between infall and merging
   - Implement BH evolution between infall and merging
   - Add in the possibility of adding an additional BH merging time scale
-      - Assume after t_dyn the BHs are at mpc scale
+      - Assume after t_dyn the BHs are in a binary
+      - Use the binary hardening scale from Yu (2002) and assume they are at mpc scale after this 
       - Sample an initial semi-major axis and initial orbital eccentricity
       - Use the Peters (1964) prescription for the merging time due to GW emiision alone
-      - Look for some correction due to dynamical friction
   - Update / create a new version of generate SG merger tree to get N merger trees of uniform mass distribution using sat gen and then scale the contribution of these to the HAR/sHAR function by scaling contribution using the HMF
   - 
